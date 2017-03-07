@@ -10,7 +10,6 @@ int main(){
     //String to write at output file
     QString str;
     qcin >> str;
-   // QString str ="Hello";
     QFile file("out.txt");
         if (!file.open(QIODevice::WriteOnly | QIODevice::Text))
             return 1;
